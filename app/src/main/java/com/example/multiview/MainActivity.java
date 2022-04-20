@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         myAdapter.setData(getListItem());
-        recyclerView.setAdapter(myAdapter);git f
+        recyclerView.setAdapter(myAdapter);
 
     }
 
