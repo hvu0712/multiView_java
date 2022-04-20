@@ -19,8 +19,6 @@ public class User {
         isFeeatured = feeatured;
     }
 
-
-
     public int getIdResource() {
         return idResource;
     }

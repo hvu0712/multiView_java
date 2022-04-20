@@ -25,11 +25,13 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         myAdapter.setData(getListItem());
-        recyclerView.setAdapter(myAdapter);
+        recyclerView.setAdapter(myAdapter);git f
+
     }
 
     private List<User> getListItem(){
         List<User> list = new ArrayList<>();
+
         list.add(new User(R.mipmap.ic_launcher, "Vu Pham", true));
 
         list.add(new User(R.mipmap.ic_launcher, "Vu Pham1", true));
@@ -45,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new User(R.mipmap.ic_launcher, "Vu Pham6", false));
 
         list.add(new User(R.mipmap.ic_launcher, "Vu Pham7", false));
+
         return list;
     }
 }
