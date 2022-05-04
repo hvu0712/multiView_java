@@ -19,6 +19,7 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public void setData(List<User> mList) {
         this.mList = mList;
         notifyDataSetChanged();
+        notifyDataSetChanged();
     }
 
     @NonNull
